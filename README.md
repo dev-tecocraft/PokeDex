@@ -19,3 +19,6 @@ PokeDex application is the simple pokemon that list out of pokemon that show the
 
 ## Screenshots
 [![1.png](https://i.postimg.cc/xCYF4QFT/1.png)](https://postimg.cc/PL34CgjB) [![2.png](https://i.postimg.cc/V6YDFRdJ/2.png)](https://postimg.cc/Lqbt9jkS) [![3.png](https://i.postimg.cc/SNwdPqnF/3.png)](https://postimg.cc/zVFTLsw0)
+
+# PokeDex
+Android demo application that contains Animated splash screen with Splash API(Android 13), Jetpack compose for UI, MVVM architecture with Dagger hilt for Dependency Injection, Retrofit for API call, State Flow
