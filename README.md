@@ -17,8 +17,7 @@ PokeDex application is the simple pokemon that list out of pokemon that show the
 - To get details of pokemon : https://pokeapi.co/api/v2/pokemon/{pokemon_id}/
 
 ## Splash Animation
-
-https://github.com/dev-tecocraft/PokeDex/assets/120561602/5385c218-a2ec-4ec8-9338-c713431529b1
+https://github.com/dev-tecocraft/PokeDex/assets/120561602/7c64b5f8-6df0-4c02-ae2b-5444ecc45b99
 
 
 
