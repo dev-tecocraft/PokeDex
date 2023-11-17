@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <!--Scale Up-->
+    <objectAnimator
+        android:duration="1500"
+        android:propertyName="scaleX"
+        android:valueFrom="0.0"
+        android:valueTo="0.55" />
+    <objectAnimator
+        android:duration="1500"
+        android:propertyName="scaleY"
+        android:valueFrom="0.0"
+        android:valueTo="0.55" />
+
+    <!--Slide Up And Down-->
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="translateY"
+        android:startOffset="1000"
+        android:valueFrom="0"
+        android:valueTo="-180" />
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="translateY"
+        android:startOffset="1500"
+        android:valueFrom="-180"
+        android:valueTo="180" />
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="translateY"
+        android:startOffset="2000"
+        android:valueFrom="180"
+        android:valueTo="0" />
+
+    <!--Shake-->
+    <objectAnimator
+        android:startOffset="2200"
+        android:duration="100"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="-45" />
+    <objectAnimator
+        android:startOffset="2300"
+        android:duration="100"
+        android:propertyName="rotation"
+        android:valueFrom="-45"
+        android:valueTo="45" />
+    <objectAnimator
+        android:startOffset="2400"
+        android:duration="100"
+        android:propertyName="rotation"
+        android:valueFrom="45"
+        android:valueTo="0" />
+
+    <!--Shake-->
+    <objectAnimator
+        android:startOffset="2800"
+        android:duration="100"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="-45" />
+    <objectAnimator
+        android:startOffset="2900"
+        android:duration="100"
+        android:propertyName="rotation"
+        android:valueFrom="-45"
+        android:valueTo="45" />
+    <objectAnimator
+        android:startOffset="3000"
+        android:duration="100"
+        android:propertyName="rotation"
+        android:valueFrom="45"
+        android:valueTo="0" />
+
+    <!--Scale Down and Up-->
+    <objectAnimator
+        android:startOffset="3100"
+        android:duration="500"
+        android:propertyName="scaleX"
+        android:valueFrom="0.55"
+        android:valueTo="0.35" />
+    <objectAnimator
+        android:startOffset="3100"
+        android:duration="500"
+        android:propertyName="scaleY"
+        android:valueFrom="0.55"
+        android:valueTo="0.35" />
+
+    <!--Scale Up-->
+    <objectAnimator
+        android:startOffset="3800"
+        android:duration="500"
+        android:propertyName="scaleX"
+        android:valueFrom="0.35"
+        android:valueTo="1" />
+    <objectAnimator
+        android:startOffset="3800"
+        android:duration="500"
+        android:propertyName="scaleY"
+        android:valueFrom="0.35"
+        android:valueTo="1" />
+</set>
